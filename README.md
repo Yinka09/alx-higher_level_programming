@@ -3,3 +3,6 @@ This project consists of basic introduction to python.
 
 0x01. Python - If/Else, Loops, Functions
 This project consists of the statements and functions in python.
+
+0x02. Python - Import and Modules
+This project consists of modules in python.
