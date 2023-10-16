@@ -30,10 +30,10 @@ class Square(Rectangle):
     def __str__(self):
         """module string represation of square
         """
-       return "[Square] ({:d}) {:d}/{:d} - {:d}".format(self.id,
+        return "[Square] ({:d}) {:d}/{:d} - {:d}".format(self.id,
                                                          self.x,
                                                          self.y,
-                                                         self.width) 
+                                                         self.width)
 
     def update(self, *args, **kwargs):
         """module update square
@@ -54,7 +54,7 @@ class Square(Rectangle):
                     setattr(self, key, value)
 
     def to_dictionary(self):
-        """return dictonary
+        """retrun dictonary
         """
         return {
             "id": self.id,
